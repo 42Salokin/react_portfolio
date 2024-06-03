@@ -6,7 +6,7 @@ const theme = createTheme({
       main: '#008080', // Base primary color
     },
     secondary: {
-      main: '#8FBC8F', // Base secondary color
+      main: '#00FFFF', // Base secondary color
     },
     text: {
         primary: '#fff', // White for primary text color
