@@ -1,6 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import theme from './utils/theme.js';
+
 
 import App from './App.jsx';
 import Error from './pages/Error';
@@ -23,15 +30,19 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/Portfolio',
+        path: 'about',
+        element: <About />,
+      },
+      {
+        path: 'portfolio',
         element: <Portfolio />,
       },
       {
-        path: '/Resume',
+        path: 'resume',
         element: <Resume />,
       },
       {
-        path: '/Contact',
+        path: 'contact',
         element: <Contact />,
       },
     ],
@@ -39,5 +50,10 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  </React.StrictMode>
 );
