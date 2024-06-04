@@ -14,6 +14,7 @@ const theme = createTheme({
       },
     background: {
         default: '#242424', // Set background color to #242424
+        secondary: '#343a40',
       },
   },
   typography: {
