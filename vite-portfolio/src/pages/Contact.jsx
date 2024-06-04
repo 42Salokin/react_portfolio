@@ -9,6 +9,7 @@ export default function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
   const [nameError, setNameError] = useState(false); 
   const [emailError, setEmailError] = useState(false);
+  const [messageError, setMessageError] = useState(false);
 
   const handleInputChange = (e) => {
     // Update state based on input field name
@@ -24,6 +25,7 @@ export default function Contact() {
         break;
       case 'message':
         setMessage(value);
+        setMessageError(false);
         break;
       default:
         break;
@@ -38,11 +40,15 @@ export default function Contact() {
 
     if (!name) {
       setNameError(true);
-      return; // Exit if name is empty
+      return; 
     }
     if (!validateEmail(email)) {
       setEmailError(true);
-      return; // Exit if email is invalid
+      return; 
+    }
+    if (!message) {
+      setMessageError(true);
+      return;
     }
 
     setName('');
@@ -68,7 +74,7 @@ export default function Contact() {
                 value={name}
                 name="name"
                 onChange={handleInputChange}
-                helperText={nameError ? 'Please enter your name' : ''} // Display error message if nameError is true
+                helperText={nameError ? 'Please enter your name' : ''} 
               />
             </FormControl>
           </Grid>
@@ -83,12 +89,12 @@ export default function Contact() {
                 value={email}
                 name="email"
                 onChange={handleInputChange}
-                helperText={emailError ? 'Please enter a valid email address' : ''} // Display error message if emailError is true
+                helperText={emailError ? 'Please enter a valid email address' : ''} 
               />
             </FormControl>
           </Grid>
           <Grid item xs={12}>
-            <FormControl fullWidth margin="normal">
+            <FormControl fullWidth margin="normal" error={messageError}>
               <FormLabel htmlFor="message">Message</FormLabel>
               <TextField
                 id="message"
@@ -99,6 +105,7 @@ export default function Contact() {
                 value={message}
                 name="message"
                 onChange={handleInputChange}
+                helperText={messageError ? 'Please enter a brief message' : ''}
               />
             </FormControl>
           </Grid>
