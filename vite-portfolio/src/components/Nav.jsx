@@ -11,7 +11,7 @@ export default function Nav() {
             Nicholas Poulson
           </Typography>
           <Button color="inherit" component={Link} to="/about"
-          sx={currentPage === '/about' ? {color: 'secondary.main'} : {}}>
+          sx={currentPage === '/' || '/about' ? {color: 'secondary.main'} : {}}>
             About Me
           </Button>
           <Button color="inherit" component={Link} to="/portfolio"
