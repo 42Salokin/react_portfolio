@@ -1,11 +1,11 @@
-import gottaCode from "./assets/gotta_code.png";
-import wildWellness from "./assets/wild_wellness.png";
-import techBlog from "./assets/tech_blog.png";
-import weather from "./assets/weather.png";
-import readme from "./assets/readme.png";
-import employee from "./assets/employee.png";
+import gottaCode from "../assets/gotta_code.png";
+import wildWellness from "../assets/wild_wellness.png";
+import techBlog from "../assets/tech_blog.png";
+import weather from "../assets/weather.png";
+import readme from "../assets/readme.png";
+import employee from "../assets/employee.png";
 
-export default projects = [
+const projects = [
     {
         name: "Gotta Code 'em All!",
         image: gottaCode,
@@ -42,4 +42,6 @@ export default projects = [
         repo: "https://github.com/42Salokin/employee_tracker",
         site: "https://drive.google.com/file/d/19pvCs-z8CcpzPtOtMlYaW3lLp8jQ-J1G/view"
     },
-]
+];
+
+export default projects;
