@@ -53,10 +53,18 @@ export default function About() {
           />
         </Card>
       </Fade>
-      <Typography variant="h1" sx={{ zIndex: 1 }}>About Me</Typography>
-      <Typography variant="body1" sx={{ zIndex: 1 }}>
-        Some stuff about me
+      <Typography variant="h1" sx={{ zIndex: 1, margin: "20px" }}>About Me</Typography>
+      <Typography variant="body1" sx={{ zIndex: 1, textAlign: 'center', margin: "20px" }}>
+      I'm a recent coding bootcamp graduate with a passion for building exceptional web solutions. My background might seem a little eclectic – I've spent years helping customers design their dream homes at Home Depot, and even served as a Chaplain Assistant in the military. But these experiences all have something in common: a desire to help others and a love for working collaboratively.
       </Typography>
+      <Typography variant="body1" sx={{ zIndex: 1, textAlign: 'center', margin: "20px" }}>
+      Now, I've channeled that energy into the world of web development.  I'm a fast learner, able to think on my feet in high-pressure situations, and excited to leverage my technical skills (JavaScript, React, Node.js, and more!) to bring your web ideas to life.
+      </Typography>
+      <Typography variant="body1" sx={{ zIndex: 1, textAlign: 'center', margin: "20px" }}>
+      Outside of code, I find myself drawn to learning new things.  Whether it's exploring the latest web development trends or diving into a good book (fantasy is a particular favorite!), I'm always curious and eager to grow.      
+      </Typography>
+      
+
     </Container>
   );
 }
