@@ -45,7 +45,7 @@ export default function About() {
         }}
       />
       <Fade in={isFirstRender ? true : visible} timeout={1000}>
-        <Card key={images[currentIndex]}>
+        <Card key={images[currentIndex]} sx={{ marginTop: "20px"}}>
           <CardMedia
             component="img"
             image={images[currentIndex]}

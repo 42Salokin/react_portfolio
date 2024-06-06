@@ -10,7 +10,7 @@ export default function Navbar() {
         <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
           Nicholas Poulson
         </Typography>
-        <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
           <Button color="inherit" component={Link} to="/about"
             sx={currentPage === '/about' ? { color: 'secondary.main' } : {}}>
             About Me

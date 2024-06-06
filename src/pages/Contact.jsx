@@ -59,7 +59,7 @@ export default function Contact() {
 
   return (
     <Container sx={{ display: 'flex', minHeight: '80vh', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', backgroundColor: 'background.secondary' }}>
-      <Typography variant="h1" component="h1">
+      <Typography variant="h1" component="h1" sx={{ marginTop: '20px'}}>
         Contact Me
       </Typography>
       <form onSubmit={handleFormSubmit}>
@@ -110,7 +110,7 @@ export default function Contact() {
             </FormControl>
           </Grid>
           <Grid item xs={12}>
-            <Button type="submit" variant="contained">
+            <Button type="submit" variant="contained" sx={{ marginBottom: "20px"}}>
               Submit
             </Button>
           </Grid>
