@@ -10,5 +10,3 @@ export default function About() {
     </Container>
   );
 }
-// TODO: create object array for projects, with properties for image, GitHub repo, and deployed site
-// iterate over array, creating display card for each project

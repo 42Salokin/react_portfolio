@@ -10,13 +10,13 @@ export default function Footer() {
         © 2024 Nicholas Poulson
       </Typography>
       <Box sx={{ ml: 2 }}>
-        <IconButton component={Link} href="https://github.com/42Salokin" target="_blank" sx={{ color: 'text.secondary' }}>
+        <IconButton component="a" href="https://github.com/42Salokin" target="_blank" sx={{ color: 'text.secondary' }}>
           <GitHubIcon />
         </IconButton>
-        <IconButton component={Link} href="https://www.linkedin.com/" target="_blank" sx={{ color: 'text.secondary' }}>
+        <IconButton component="a" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" sx={{ color: 'text.secondary' }}>
           <LinkedInIcon />
         </IconButton>
-        <IconButton component={Link} href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank" sx={{ color: 'text.secondary' }}>
+        <IconButton component="a" href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank" sx={{ color: 'text.secondary' }}>
             <img src={indeedIcon} alt="Indeed Profile"/>
         </IconButton>
       </Box>
