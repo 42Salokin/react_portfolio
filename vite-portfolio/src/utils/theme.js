@@ -21,6 +21,7 @@ const theme = createTheme({
     fontFamily: 'Roboto, Arial, sans-serif',
     h1: {
       fontSize: '2rem',
+      color: '#fff'
     },
   },
 });

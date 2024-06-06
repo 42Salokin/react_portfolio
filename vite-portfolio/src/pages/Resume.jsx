@@ -31,7 +31,7 @@ export default function About() {
           </List>
         </Container>             
       </Container>
-      <Button color="inherit" component="a" href="https://github.com/42Salokin/resume/blob/main/Resume-Nicholas-Poulson.pdf" 
+      <Button color="inherit" component="a" href="https://profile.indeed.com/p/nicholasp-h594zsv" 
       target="_blank" sx={{ backgroundColor: "primary.main"}}>
             My Resume
       </Button>
