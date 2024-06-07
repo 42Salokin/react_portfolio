@@ -9,7 +9,7 @@ function App() {
       <Box sx={{minHeight: '5vh'}}>
       <Navbar />
       </Box>      
-      <Container sx={{ display: 'flex',  flexDirection: 'column', flexGrow: 1, backgroundColor: 'background.secondary' }} >
+      <Container sx={{ display: 'flex',  flexDirection: 'column', flexGrow: 1 }} >
         <Outlet />
       </Container>
       <Box sx={{minHeight: '5vh', flex: '0, 0, auto'}}>

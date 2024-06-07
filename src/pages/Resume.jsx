@@ -6,7 +6,7 @@ export default function About() {
   const fProfs = ["HTML", "CSS", "JavaScript", "APIs", "Handlebars", "React" ];
   const bProfs = ["Node.js", "Express.js", "PostgreSQL", "MongoDB" ];
   return (
-    <Container sx={{ display: 'flex', minHeight: '80vh', alignItems: 'center', justifyContent: 'center', 
+    <Container sx={{ display: 'flex', flexGrow: 1, alignItems: 'center', justifyContent: 'center', 
     flexDirection: 'column', backgroundColor: 'background.secondary', paddingTop: '30px' }}>
       <Typography variant="h1" sx={{ textAlign: "center"}}>My Development Proficiencies</Typography>
       <Container sx={{ marginTop: '30px', display: 'flex', justifyContent: 'center'}}>

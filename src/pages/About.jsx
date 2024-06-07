@@ -27,7 +27,7 @@ export default function About() {
   return (
     <Container sx={{
       display: 'flex', alignItems: 'center', justifyContent: 'center',
-      flexDirection: 'column', minHeight: '80vh', position: 'relative'
+      flexDirection: 'column', flexGrow: 1, position: 'relative'
     }}>
       <Box
         sx={{
