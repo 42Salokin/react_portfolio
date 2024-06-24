@@ -1,11 +1,18 @@
 import gottaCode from "../assets/gotta_code.png";
 import wildWellness from "../assets/wild_wellness.png";
 import techBlog from "../assets/tech_blog.png";
+import illuminears from "../assets/illuminears.png";
 import weather from "../assets/weather.png";
 import readme from "../assets/readme.png";
 import employee from "../assets/employee.png";
 
 const projects = [
+    {
+        name: "Illuminears Quest",
+        image: illuminears,
+        repo: "https://github.com/Velazqe/illuminears",
+        site: "https://illuminears-quest.onrender.com/"
+    },
     {
         name: "Gotta Code 'em All!",
         image: gottaCode,
@@ -15,14 +22,8 @@ const projects = [
     {
         name: "Wild Wild Wellness",
         image: wildWellness,
-        repo: "https://github.com/mileswildmore18/The-Wild-Wild-Wellness",
-        site: "https://mileswildmore18.github.io/The-Wild-Wild-Wellness/"
-    },
-    {
-        name: "Tech Blog",
-        image: techBlog,
-        repo: "https://github.com/42Salokin/tech_blog",
-        site: "https://tech-blog-p0i5.onrender.com"
+        repo: "https://github.com/42Salokin/wild_wellness",
+        site: "https://42salokin.github.io/wild_wellness/"
     },
     {
         name: "Weather Dashboard",
