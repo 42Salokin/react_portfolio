@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function About() {
   const fProfs = ["HTML", "CSS", "JavaScript", "APIs", "Handlebars", "React" ];
-  const bProfs = ["Node.js", "Express.js", "PostgreSQL", "MongoDB" ];
+  const bProfs = ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "Apollo/GraphQL" ];
   return (
     <Container sx={{ display: 'flex', flexGrow: 1, alignItems: 'center', justifyContent: 'center', 
     flexDirection: 'column', backgroundColor: 'background.secondary', paddingTop: '30px' }}>
