@@ -13,7 +13,7 @@ export default function Footer() {
         <IconButton component="a" href="https://github.com/42Salokin" target="_blank" sx={{ color: 'text.secondary' }}>
           <GitHubIcon />
         </IconButton>
-        <IconButton component="a" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" sx={{ color: 'text.secondary' }}>
+        <IconButton component="a" href="https://www.linkedin.com/in/nicholas-poulson-749112226/" target="_blank" sx={{ color: 'text.secondary' }}>
           <LinkedInIcon />
         </IconButton>
         <IconButton component="a" href="https://profile.indeed.com/p/nicholasp-h594zsv" target="_blank" sx={{ color: 'text.secondary' }}>
